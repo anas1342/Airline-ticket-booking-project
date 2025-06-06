@@ -1,0 +1,22 @@
+
+body
+{
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center left;
+    align-items: center ;
+    height: 100vh;
+} 
+
+.social-icons a {
+    margin: 0 10px;
+    
+}
+
+.social-icons img {
+    width: 150px;
+    height: 150px;
+}

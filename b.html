@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body dir="ltr" >
+    <div class="anass">
+        <img src="Image/11.ico" alt="">
+    </div>
+    <div class="container"  dir="rtl">
+    <h2 class="qq">قم بادخال المعلومات</h2>
+    <form action="f.html" method="post" enctype="multipart/form-data">
+        <label for="full_name">ادخل اسمك</label>
+        <input type="text" id="full_name" name="full_name" required>
+
+        <label for="phone_number">رقم الهاتف</label>
+        <input type="tel" id="phone_number" name="phone_number" required>
+
+        <label for="email">البريد الاكتروني</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="passport">جواز السفر(PDF):</label>
+        <input type="file" id="passport" name="passport" accept=".pdf" required>
+
+        <label for="travel_type">رحلة السفر</label>
+        <select id="travel_type" name="travel_type" required>
+            <option value="round_trip">ذهاب واياب</option>
+            <option value="one_way">ذهاب فقط</option>
+        </select>
+        <label for="from">السفر من:</label>
+        <select id="from">
+            <option value="اليمن">اليمن</option>
+            <option value="السعودية">السعودية</option>
+            <option value="امريكا">امريكا</option>
+            <option value="السودان">السودان</option>
+            <option value="العراق">العراق</option>
+            <option value="سوريا">سوريا</option>
+            <option value="لبنان">لبنان</option>
+            <option value="فرنسا">فرنسا</option>
+            <option value="الجزائر">الجزائر</option>
+        </select>
+    
+        <br><br>
+        <label for="to">السفر الئ:</label>
+    <select id="to">
+        <option value="اليمن">اليمن</option>
+        <option value="السعودية">السعودية</option>
+        <option value="امريكا">امريكا</option>
+        <option value="السودان">السودان</option>
+        <option value="العراق">العراق</option>
+        <option value="سوريا">سوريا</option>
+        <option value="لبنان">لبنان</option>
+        <option value="فرنسا">فرنسا</option>
+        <option value="الجزائر">الجزائر</option>
+    </select>
+
+
+        <label for="payment_method">طريقة الدفع</label>
+        <select id="payment_method" name="payment_method" required>
+            <option value="paypal">بايبال</option>
+            <option value="visa">فيزا كارد</option>
+            <option value="western_union">ويستر يونيون</option>
+        </select>
+
+        <div class="icons">
+            <img src="Image/pa.png" alt="PayPal">
+            <img src="Image/v.png" alt="Visa">
+            <img src="Image/w.png" alt="Western Union">
+        </div>
+
+        <button type="submit">ارسال</button>
+    </form>
+</div>
+
+</body>
+</html>

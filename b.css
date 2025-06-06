@@ -1,0 +1,134 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('Image/11.jpg');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    padding: 30px;
+    
+   
+}
+
+.anass
+{
+    /* background-color: #ccc; */
+    /* شفافية العنصر */
+     /* opacity: 0.1; */
+  
+   /* float: right; */
+   /* مكان العنصر */
+  animation-name: sara;
+  animation-duration: 15s;
+  animation-delay: 1s;
+  
+}
+@keyframes sara{
+    0%{
+        translate: 0 0;
+
+    }
+    50%
+    {
+        translate: 1700px 0;
+
+    }
+    75%{
+        
+    }
+    100%{
+        translate: 0 0;
+
+    }
+    
+}
+
+
+.qq{
+    border-style: solid;
+    border-color: red green blue;
+}
+.container
+{
+    
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    /* ظل */
+     text-shadow: -6px 4px 6px rgba(62, 73, 224, 0.8)
+     
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.icons img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
